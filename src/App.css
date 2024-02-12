@@ -1,38 +1,129 @@
-.App {
+body {
+  background: #C9184A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #FF4D6D;
+}
+
+.title {
+  font-size: 5em;
   text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  padding-top: .25em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 #FF4D6D;
+  padding: 2em 3em !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.date {
+  color: white;
+  text-shadow: 1px 2px 3px #590D22;
+  margin-top: .3em !important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: .5em 1em;
+  border-radius: 5px;
+  background: #590D22;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.button:hover {
+  background: #590d23ee;
+}
+
+.title-memory {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.map {
+  height: 400px;
+  width: 400px;
+}
+
+.iframe-image {
+  width: 1200px;
+  height: 600px;
+  border: 5px solid #590D22;
+}
+
+.flex-memory {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: #590D22;
+    text-shadow: none;
+    margin-top: 1.5em;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1300px) {
+  .flex-content {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .iframe-image {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .iframe-image {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .iframe-image {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .iframe-image {
+    width: 90vw;
   }
 }

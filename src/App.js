@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { ReactComponent as HeartIcon} from './heart.svg';
+import timelineElements from "./timelineElements.js";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { Link } from 'react-router-dom';
 
 function App() {
+  let iconStyles = {
+    background: "#fff"
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className='title'>Nasze wspomnienia</h1>
+      <VerticalTimeline>
+        {
+          timelineElements.map(element => {
+              return(
+                  <VerticalTimelineElement
+                    key={element.key}
+                    date={element.date}
+                    dateClassName="date"
+                    iconStyle={iconStyles}
+                    icon={<HeartIcon className='heart-icon'/>}
+                  >
+                    <h3 className='vertical-timeline-element-title'>{element.title}</h3>
+                    <h5 className='vertical-timeline-element-subtitle'>{element.location}</h5>
+                    <p id='description'></p>
+                    <Link className='button' key={element.id} to={`/wspomnienia/${element.id}`}>
+                      {element.buttonText}
+                    </Link>
+                  </VerticalTimelineElement>
+              )
+          })
+        }
+      </VerticalTimeline>
     </div>
   );
 }
