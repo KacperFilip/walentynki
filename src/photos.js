@@ -10,7 +10,10 @@ const photos1 = [
     { src: images['1.jpg'], width: 400, height: 750 },
 ];
 
-const photos2 = [];
+const photos2 = [
+    { src: images['2_1.jpg'], width: 700, height: 550 },
+    { src: images['2_2.jpg'], width: 700, height: 450 },
+];
 
 const photos3 = [
     { src: images['3_1.jpg'], width: 500, height: 750 },
@@ -21,7 +24,11 @@ const photos4 = [
     { src: images['4_1.jpg'], width: 600, height: 450 },
 ];
 
-const photos5 = [];
+const photos5 = [
+    { src: images['5_1.jpg'], width: 500, height: 450 },
+    { src: images['5_2.jpg'], width: 600, height: 450 },
+    { src: images['5_3.jpg'], width: 600, height: 450 },
+];
 
 const photos6 = [
     { src: images['6_1.jpg'], width: 500, height: 750 },
