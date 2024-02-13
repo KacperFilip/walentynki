@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     errorElement: <h1>404 Nie znaleziono strony</h1>
   },
   {
-    path: '/wspomnienia',
+    path: '/zdjecia/',
     element: <RoutePage/>
   },
   {

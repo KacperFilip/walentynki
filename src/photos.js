@@ -18,16 +18,19 @@ const photos2 = [
 const photos3 = [
     { src: images['3_1.jpg'], width: 500, height: 750 },
     { src: images['3_2.jpg'], width: 500, height: 750 },
+    { src: images['3_3.jpg'], width: 600, height: 350 },
 ];
 
 const photos4 = [
     { src: images['4_1.jpg'], width: 600, height: 450 },
+    { src: images['4_2.jpg'], width: 300, height: 650 },
 ];
 
 const photos5 = [
     { src: images['5_1.jpg'], width: 500, height: 450 },
     { src: images['5_2.jpg'], width: 600, height: 450 },
     { src: images['5_3.jpg'], width: 600, height: 450 },
+    { src: images['5_4.jpg'], width: 400, height: 850 },
 ];
 
 const photos6 = [
@@ -109,4 +112,27 @@ const photos15 = [
     { src: images['15_4.jpg'], width: 864, height: 1024 },
 ]
 
-export {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13, photos14, photos15};
+const photos16 = [
+    { src: images['16_1.jpg'], width: 900, height: 1024 },
+    { src: images['16_2.jpg'], width: 600, height: 1024 },
+    { src: images['16_3.jpg'], width: 1024, height: 600 },
+    { src: images['16_4.jpg'], width: 600, height: 1024 },
+    { src: images['16_5.jpg'], width: 700, height: 1024 },
+    { src: images['16_6.jpg'], width: 700, height: 1024 },
+    { src: images['16_7.jpg'], width: 1024, height: 600 },
+    { src: images['16_8.jpg'], width: 700, height: 1024 },
+    { src: images['16_9.jpg'], width: 700, height: 1024 },
+    { src: images['16_10.jpg'], width: 700, height: 1024 },
+    { src: images['16_11.jpg'], width: 1024, height: 600 },
+    { src: images['16_12.jpg'], width: 700, height: 1024 },
+    { src: images['16_13.jpg'], width: 700, height: 1024 },
+    { src: images['16_14.jpg'], width: 700, height: 1024 },
+    { src: images['16_15.jpg'], width: 700, height: 1024 },
+    { src: images['16_16.jpg'], width: 500, height: 1024 },
+    { src: images['16_17.jpg'], width: 1024, height: 500 },
+    { src: images['16_18.jpg'], width: 1024, height: 900 },
+    { src: images['16_19.jpg'], width: 500, height: 1024 },
+    { src: images['16_20.jpg'], width: 700, height: 1024 },
+]
+
+export {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13, photos14, photos15, photos16};
