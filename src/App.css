@@ -3,6 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #FF4D6D;
+  overflow-x: hidden;
 }
 
 .title {
@@ -70,7 +71,6 @@ h3 {
 .flex-content {
   display: grid;
   grid-template-columns: 30% 70%;
-  width: 100vw;
   justify-content: center;
   align-items: center;
 }
@@ -133,6 +133,10 @@ h3 {
 @media only screen and (max-width: 1500px) {
   .iframe-image {
     width: 800px;
+  }
+
+  .title {
+    font-size: 3em;
   }
 }
 
