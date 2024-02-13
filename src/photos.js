@@ -133,6 +133,11 @@ const photos16 = [
     { src: images['16_18.jpg'], width: 1024, height: 900 },
     { src: images['16_19.jpg'], width: 500, height: 1024 },
     { src: images['16_20.jpg'], width: 700, height: 1024 },
+    { src: images['16_21.jpg'], width: 700, height: 900 },
+    { src: images['16_22.jpg'], width: 700, height: 600 },
+    { src: images['16_23.jpg'], width: 700, height: 900 },
+    { src: images['16_24.jpg'], width: 700, height: 900 },
+    { src: images['16_25.jpg'], width: 1024, height: 300 },
 ]
 
 export {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13, photos14, photos15, photos16};

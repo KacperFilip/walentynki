@@ -10,7 +10,7 @@ function RoutePage() {
         <div>
             <h1 className="title">Więcej zdjęć</h1>
             <div className="iframe-container2">
-                <PhotoAlbum layout="columns" targetRowHeight={150} photos={photos16} onClick={({ index }) => setIndex(index)}/>
+                <PhotoAlbum layout="rows" targetRowHeight={300} photos={photos16} onClick={({ index }) => setIndex(index)}/>
 
                 <Lightbox
                 slides={photos16}
