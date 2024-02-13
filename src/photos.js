@@ -76,10 +76,10 @@ const photos11 = [
 ];
 
 const photos12 = [
-    { src: images['12_1.jpg'], width: 900, height: 650 },
-    { src: images['12_2.jpg'], width: 900, height: 650 },
-    { src: images['12_3.jpg'], width: 500, height: 750 },
-    { src: images['12_4.jpg'], width: 500, height: 750 },
+    { src: images['12_1.jpg'], width: 900, height: 550 },
+    { src: images['12_2.jpg'], width: 900, height: 550 },
+    { src: images['12_3.jpg'], width: 450, height: 750 },
+    { src: images['12_4.jpg'], width: 450, height: 750 },
 ];
 
 const photos13 = [
@@ -91,4 +91,15 @@ const photos13 = [
     { src: images['13_6.jpg'], width: 600, height: 850 },
 ];
 
-export {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13};
+const photos14 = [
+
+]
+
+const photos15 = [
+    { src: images['15_1.jpg'], width: 864, height: 1024 },
+    { src: images['15_2.jpg'], width: 864, height: 1024 },
+    { src: images['15_3.jpg'], width: 864, height: 1024 },
+    { src: images['15_4.jpg'], width: 864, height: 1024 },
+]
+
+export {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13, photos14, photos15};

@@ -19,9 +19,9 @@ let timelineElements = [
       date: "5 grudnia 2022",
       icon: "heart",
       imagesId: "1XnX9J0B1z3M4gCqbEPzL970z-3kK8-MD",
-      lat: 49.62413560062514,
-      lng: 20.706448379696123,
-      zoom: 13
+      lat: 49.655518982251394,
+      lng: 20.82125433936569,
+      zoom: 15
     },
     {
       id: 3,
@@ -50,13 +50,13 @@ let timelineElements = [
     {
       id: 5,
       title: "Spadające gwiazdy",
-      location: "Tylicz",
+      location: "Muszyna",
       buttonText: "Zobacz zdjęcia",
       date: "22 kwietnia 2023",
       icon: "heart",
       imagesId: "1a-P058uHsrlXdTR2a2nmjFVVoQL28dQb",
-      lat: 49.395633191585794,
-      lng: 21.02457633637213,
+      lat: 49.3475259560473,
+      lng: 20.887673610822986,
       zoom: 13
     },
     {
@@ -76,7 +76,7 @@ let timelineElements = [
       title: "Namioty",
       location: "Tabaszowa",
       buttonText: "Zobacz zdjęcia",
-      date: "3 sierpnia 2023",
+      date: "2-3 sierpnia 2023",
       icon: "heart",
       imagesId: "1M-U42v13NXRs1PQ3rMkmKEY82JaqT3-h",
       lat: 49.75931774111558,
@@ -112,7 +112,7 @@ let timelineElements = [
       title: "Pierwsza wspólna impreza",
       location: "Menelno",
       buttonText: "Zobacz zdjęcia",
-      date: "24 września 2023",
+      date: "23 września 2023",
       icon: "heart",
       imagesId: "1uQDUejQ1fadZuU8Yq0ENuCf-KEje6OX7",
       lat: 49.654316410785924,
@@ -136,7 +136,7 @@ let timelineElements = [
       title: "Pierwszy wspólny Sylwester",
       location: "Kraków",
       buttonText: "Zobacz zdjęcia",
-      date: "01 stycznia 2024",
+      date: "31 grudnia 2023",
       icon: "heart",
       imagesId: "1vv8cIVYJ3uv8TZ01B4ZvYM5kyKcdLaY6",
       lat: 50.06481153959426,

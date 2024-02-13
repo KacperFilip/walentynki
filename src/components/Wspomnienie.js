@@ -4,7 +4,7 @@ import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps';
 import PhotoAlbum from "react-photo-album";
 import "yet-another-react-lightbox/styles.css";
 import Lightbox from "yet-another-react-lightbox";
-import {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13} from "../photos.js";
+import {photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13, photos14, photos15} from "../photos.js";
 import { useState } from "react";
 
 function Wspomnienie() {
@@ -14,7 +14,7 @@ function Wspomnienie() {
 
     const [index, setIndex] = useState(-1);
     
-    const usePhotos = [photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13]
+    const usePhotos = [photos1, photos2, photos3, photos4, photos5, photos6, photos7, photos8, photos9, photos10, photos11, photos12, photos13, photos14, photos15]
 
     return (
         <div className="flex-memory">
