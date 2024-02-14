@@ -101,6 +101,33 @@ h3 {
   border-radius: 5px;
 }
 
+.audios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20vw;
+}
+
+.audios .rhap_container {
+  border-radius: 5px;
+  margin: 5px 0;
+  background: #C9184A;
+  border: 4px solid #590D22;
+}
+
+.rhap_repeat-button, .rhap_main-controls-button, .rhap_volume-button, .rhap_time {
+  color: white !important;
+}
+
+.rhap_volume-indicator {
+  background: white !important;
+}
+
+.rhap_progress-indicator, .rhap_progress-filled {
+  background: #590D22 !important;
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }

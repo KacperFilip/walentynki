@@ -3,9 +3,20 @@ import "yet-another-react-lightbox/styles.css";
 import Lightbox from "yet-another-react-lightbox";
 import { useState } from "react";
 import { photos16 } from "../photos.js";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 function RoutePage() {
     const [index, setIndex] = useState(-1);
+
+    function importAll(r) {
+        let audio = {};
+        r.keys().map(item => { audio[item.replace('./', '')] = r(item); });
+        return audio;
+      }
+      
+    const audio = importAll(require.context('../images', false, /\.mp3/));
+
     return (
         <div>
             <h1 className="title">Więcej zdjęć</h1>
@@ -18,6 +29,10 @@ function RoutePage() {
                 index={index}
                 close={() => setIndex(-1)}
                 />
+            </div>
+            <div className="audios">
+                <AudioPlayer autoPlay={false} src={audio["a_1.mp3"]}/>
+                <AudioPlayer autoPlay={false} src={audio["a_2.mp3"]}/>
             </div>
         </div>
     );
