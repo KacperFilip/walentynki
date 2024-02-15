@@ -159,6 +159,10 @@ h3 {
   border: 4px solid #590D22;
   transition: all .2s ease-in-out;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .heart-button:hover {
@@ -168,6 +172,14 @@ h3 {
 
 .heart-button:hover path {
   stroke: white;
+}
+
+.special-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1700px) {

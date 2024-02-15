@@ -102,7 +102,14 @@ const photos13 = [
 ];
 
 const photos14 = [
-
+    { src: images['14_1.jpg'], width: 600, height: 750 },
+    { src: images['14_2.jpg'], width: 600, height: 750 },
+    { src: images['14_3.jpg'], width: 600, height: 750 },
+    { src: images['14_4.jpg'], width: 600, height: 750 },
+    { src: images['14_5.jpg'], width: 1100, height: 750 },
+    { src: images['14_6.jpg'], width: 1100, height: 750 },
+    { src: images['14_7.jpg'], width: 1100, height: 750 },
+    { src: images['14_8.jpg'], width: 1100, height: 750 },
 ]
 
 const photos15 = [

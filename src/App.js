@@ -37,7 +37,7 @@ function App() {
       </VerticalTimeline>
       <div className='button-wrapper'>
         <button className='heart-button'>
-          <Link key={18} to={'/zdjecia/'}>
+          <Link className='special-button' key={18} to={'/zdjecia/'}>
             <HeartIcon/>
           </Link>
         </button>
